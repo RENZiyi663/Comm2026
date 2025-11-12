@@ -13,9 +13,12 @@ from typing import List, Dict, Any
 import os
 
 # API Configuration
-SCOPUS_API_KEY = "c250bb68fb176b5907c8296410568516"
-SCOPUS_INSTTOKEN = "d45c2a5307a7d3fa145c5afe451a8a32"
-SEMANTIC_API_KEY = "Rx2fP6Lcq833H9Dybfw3J38LfP0xYLaQ1T1f3BTc"
+# Load API keys from environment variables or config files
+import os
+
+SCOPUS_API_KEY = os.environ.get("SCOPUS_API_KEY", "")
+SCOPUS_INSTTOKEN = os.environ.get("SCOPUS_INSTTOKEN", "")
+SEMANTIC_API_KEY = os.environ.get("SEMANTIC_API_KEY", "")
 
 # Search Query from Meta Study Plan
 SCOPUS_QUERY = (
