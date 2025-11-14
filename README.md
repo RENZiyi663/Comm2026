@@ -46,12 +46,20 @@ The course demonstrates how to use AI coding assistants to write Python programs
 
 ---
 
-### Lab 3: [To be completed]
-**Objective:** TBD
+### Lab 3: Open-Ended Exploration
+**Objective:** Independent exploration of using AI assistants for data analysis and processing.
+
+**Task:**
+- Students search and download CSV files containing research paper titles and abstracts
+- Explore different ways to use AI coding assistants to analyze and process the data
+- Apply skills learned in Labs 1 and 2 to new datasets
+- Experiment with custom analysis tasks and report generation
 
 **Files:**
-- Input: `demo/lab3/input/`
-- Output: `demo/lab3/output/`
+- Input: `demo/lab3/input/` - Students provide their own CSV files
+- Output: `demo/lab3/output/` - Results of their exploration
+
+**What we learn:** Independent problem-solving, applying AI assistant skills to new contexts, and creative exploration of data analysis possibilities.
 
 ---
 
@@ -78,7 +86,7 @@ Comm2026/
 ├── demo/
 │   ├── lab1/          # Word count analysis
 │   ├── lab2/          # Generative AI screening and synthesis
-│   ├── lab3/          # [To be completed]
+│   ├── lab3/          # Open-ended exploration lab
 │   └── PDF2md/        # PDF to Markdown conversion utility
 └── Practice/          # Practice exercises (mirrors demo structure)
 ```
